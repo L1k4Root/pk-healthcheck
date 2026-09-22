@@ -3,7 +3,8 @@ name: ci
 on:
   push:
     branches: [main]
-    tags: ["v*"]
+    # Full versions only: the floating major tag (v1) must not trigger a release.
+    tags: ["v*.*.*"]
   pull_request:
 
 permissions:

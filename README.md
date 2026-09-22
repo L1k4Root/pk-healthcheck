@@ -75,7 +75,7 @@ the probe and a `HEALTHCHECK` against its `:13133` extension, and CI starts the 
 
 ## How it works (fundamentals)
 
-The whole program is ~400 lines across four files:
+The whole program is ~500 commented lines across four files:
 
 | File | Responsibility |
 |---|---|
